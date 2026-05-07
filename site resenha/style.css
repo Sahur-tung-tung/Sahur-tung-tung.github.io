@@ -1,0 +1,63 @@
+
+body{
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    background-color: #dedede;
+}
+
+.divao{
+        height: 60;
+        width: 100%;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.divinha{
+    background-color: rgb(158, 5, 138);
+    border-radius: 2px;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+   color: rgb(255, 255, 255); 
+   font-size: 50px;
+}
+
+.Cornelius{
+    color: rgb(53, 37, 65);
+    font-size: 67px;
+
+    justify-self: center;
+}
+
+.batata{
+    color: blue;
+}
+
+.Coconut{
+    display: flex;       
+    flex-direction: column;         /* Ativa o flexbox */
+    justify-content: center;      /* Centraliza horizontalmente */
+    align-items: center;          /* Centraliza verticalmente */
+    height: 400px; 
+}
+/* Exemplo: Aumentar largura para 500px, altura ajusta automática */
+img {
+  width: 400px;
+  height: auto;
+  border-radius: 18px;
+}
+.sahur{
+     display: flex;       
+    flex-direction: column;         /* Ativa o flexbox */
+    justify-content: center;      /* Centraliza horizontalmente */
+    align-items: center;          /* Centraliza verticalmente */
+    height: 400px; 
+}
