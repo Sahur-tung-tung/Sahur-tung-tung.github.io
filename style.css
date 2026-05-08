@@ -1,16 +1,19 @@
 
 body{
     font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
-    background-color: #251f1f;
+     background-image: linear-gradient(to bottom, rgb(105, 30, 30), rgb(221, 174, 130), rgb(133, 33, 46));
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.658);
 }
 
 
 .principal{
     height: 100%;
-    width: 85%;
-    background-color: rgb(255, 231, 231);
+    width: 85%;  
+    background-image: linear-gradient(to bottom, rgb(245, 208, 161), rgb(255, 211, 129));
     margin: 0;
     justify-self: center;
+    box-shadow: 0px 0px 15px 10px #000000c4;
+    border-radius: 5px;
 }
 .divao{
         height: 60;
@@ -60,6 +63,7 @@ h1{
 .Cornelius span{
     display: inline-block;
     animation: jump 0.6s infinite ease-in-out;
+    
 
 }
 /* Exemplo: Aumentar largura para 500px, altura ajusta automática */
@@ -67,6 +71,7 @@ img {
   width: 400px;
   height: auto;
   border-radius: 18px;
+  box-shadow: 0px 0px 15px 10px #00000080;
 }
 .sahur{
      display: flex;       
